@@ -1,0 +1,99 @@
+.navHome .scrolledNav {
+  background: $orange;
+  border-bottom: 1px solid white;
+  opacity: 0.9;
+  .navWrapper ul{
+  margin-left: 5%;
+  }
+  .mobileUl {
+    margin-left: 0;
+  }
+}
+
+#scrolledNavLogo {
+  display: block;
+}
+
+.navHome nav {
+    background: 
+  linear-gradient(
+    to bottom,
+    rgba(0,0,0,0.4),
+    rgba(255,255,255,0.001)
+    )
+  ;
+}
+nav {
+
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  transition: all 1s;
+  z-index: 1;
+  .navWrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+
+    .hamburger {
+      display: none;
+    }
+
+    .navLogo {
+      width: 10%;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      max-width: 130px;
+      float: left;
+      position: absolute;
+      margin-left: 20px;
+      display: none;
+    } 
+    ul {
+      margin: 0 auto;
+      list-style: none;
+      padding: 24px 0 29px 0;
+      width: 100%;
+      float: left;
+    #homeLink {
+      display: none;
+    }
+    li{
+      display: inline-block;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding-left: 1%;
+      padding-right: 1%;
+      a {
+        color: white;
+        .fa {
+          padding: 5px;
+        }
+      }
+      }
+    }
+
+    li a:hover {
+      color: $turqoise; 
+    }
+
+    li.languageSelector {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    li.languageSelector a {
+      background-color: $turqoise;
+      border-radius: 5px;
+      padding: 2px;
+    }
+    li.current a{
+      border: solid 1px white;
+    }
+  } //navWrapper ends here
+}  //nav ends here
+
+nav .navWrapper .frenchNavUl li {
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  font-size: 13px;
+}

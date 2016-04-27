@@ -1,0 +1,377 @@
+@media all and (max-width: 1250px) {
+	.footerLeft {
+		padding-left: 20px;
+	}
+}
+
+@media all and (max-width: 1200px) {
+	.englishContainer {
+		padding-top: 50px;
+	}
+	.frenchContainer {
+		padding-top: 50px;
+	}
+}
+
+@media all and (max-width: 1150px) {
+	nav .navWrapper .navLogo {
+		margin-left: 0;
+		width: 8%;
+	}
+
+	nav .navWrapper {
+		width: 100%;
+		ul {
+			padding: 18px 0;
+		}
+		li {
+			padding-left: .5%;
+			padding-right: .5%;
+			font-size: 14px;
+		}
+	}
+
+	footer .footerWrapper .footerRight img {
+		width: 40%;
+	}
+
+	.getSocial .emailSignup .emailSignupInner .emailSignupInput .firstNameBox1 {
+		width: 42%;
+	}
+
+	.getSocial .emailSignup .emailSignupInner .emailSignupInput .cityBox1 {
+		width: 42%;
+	}
+}
+
+@media all and (max-width: 1100px) {
+
+	nav .navWrapper ul li {
+		font-size: 13px;
+		padding-left: .3%;
+		padding-right: .3%;
+	}
+
+	nav .navWrapper ul {
+		font-size: 14px;
+	}
+
+	header .englishContainer {
+		width: 55%;
+	}
+
+	header .frenchContainer {
+		width: 55%;
+	}
+}
+
+@media all and (max-width: 950px) {
+
+	.navHome .scrolledNav .navWrapper ul {
+		margin-left: 0;
+	}
+
+
+	nav .navWrapper {
+
+		.navLogo {
+			width: 100px;
+		}
+
+		.hamburger {
+		display: inline-block;
+		font-size: 32px;
+		float: right;
+		margin-right: 20px;
+		margin-bottom: 12px;
+		p {
+			margin: 0;
+			padding-top: 10px;
+		}
+		}
+		.mobileUl {
+			visibility: visible;
+		}
+		ul {
+			visibility: hidden;
+			position: fixed;
+			margin: 0;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background-color: rgba(0,0,0,0.8);
+			li {
+				display: block;
+				margin-top: 12px;
+				a {
+					font-size: 24px;
+				}
+				a:hover {
+					color: transparent;
+				}
+			}
+			.languageSelector {
+				display: inline;
+				margin-left: 5px;
+				margin-right: 5px;
+				margin-top: 20px;
+			}
+		}
+	}
+
+	.inviteYourFriends .inviteInner p {
+		font-size: 48px;
+	}
+
+	.sponsors .sponsorLogos {
+
+	.mediaSponsors {
+		width: 100%;
+	}
+	.nationalSponsors {
+		width: 100%;
+	}
+	.eventSponsors {
+		width: 100%;
+	}
+	.communitySponsors {
+		width: 100%;
+	}
+	.otherSponsors {
+		width: 100%;
+	}
+
+	}
+	header .englishContainer {
+		width: 70%;
+		padding-top: 0px;
+	}
+	header .frenchContainer {
+		width: 70%;
+		padding-top: 0px;
+	}
+
+	.getSocial .emailSignup .emailSignupInner .emailSignupInput .firstNameBox1 {
+		width: 50%;
+	}
+
+	.getSocial .emailSignup .emailSignupInner .emailSignupInput .cityBox1 {
+		width: 50%;
+	}
+}
+
+@media all and (max-width: 800px) {
+
+	.cityPicker .citiesList p {
+		font-size: 18px;
+	}
+
+	.getSocial .emailSignup .emailSignupInner {
+		width: 100%;
+		.emailSignupInput .emailOne {
+			width: 82%;
+		}
+	}
+
+	.footer {
+		overflow: visible;
+	}
+	footer .footerWrapper .footerLeft {
+		width: 100%;
+		float: none;
+		text-align: center;
+		h2 {
+			margin-top: 0;
+			padding-top: 20px;
+		}
+	}
+	footer .footerWrapper .footerRight {
+		width: 100%;
+		float: none;
+	}
+}
+
+@media all and (max-width: 750px) {
+
+	body {
+		background-size: auto;
+	}
+	
+	.latestNews .newsItem {
+		flex: 0 0 48%;
+	}
+	.aboutLogoContainers {
+		width: 40%;
+	}
+
+	header .englishContainer {
+		width: 80%;
+	}
+
+	header .frenchContainer {
+		width: 80%;
+	}
+
+	.cityPicker{
+		
+		.citiesList{
+			p {
+			font-size: 14px;
+			}
+		} 
+		.restaurantsList {
+			height: $mapHeightMobile;
+		}
+		.restaurantListContainer {
+			height: 450px;
+		}
+		.singleRestaurantDataVisible {
+			height: $mapHeightMobile;
+		}
+	}
+
+	.citiesList {
+		height: $mapHeightMobile
+	}
+
+	.restaurantListContainer {
+		height: 250px;
+	}
+
+	#restaurantListSlideout .restaurantListContainer {
+		height: 250px;
+	}
+
+	.whoBenefits .benefitsText {
+		width: 90%
+	}
+
+	.aboutSection .aboutContent {
+		width: 90%;
+	}
+
+	footer .footerWrapper .footerLeft p {
+		font-size: 19px;
+	}
+}
+
+@media all and (max-width: 650px) {
+
+	.cityPicker {
+		height: 650px;
+		.citiesList{
+			width: 100%;
+			float: none;
+			p {
+				font-size: 16px;
+			}
+		}
+		.restaurantsList {
+			width: 100%;
+		}
+
+		.singleRestaurantDataVisible {
+			width: 40%;
+		}
+
+		.reservationsMap {
+			width: 0;
+			display: none;
+			height: 0;
+		}
+		#mapSlideout {
+			width: 0;
+			display: none;
+		}
+	}
+
+	#restaurantsListSlideout {
+		width: 60% !important;
+	}
+
+	.whoBenefits .aboutLogos{
+		width: 100%;
+
+	 	.aboutLogoContainers {
+			width: 30%;
+		}
+	}
+
+	.inviteYourFriends .inviteInner p {
+		font-size: 38px;
+	}
+
+	.getSocial .emailSignup .emailSignupInner .emailSignupInput .firstNameBox1 {
+		width: 50%;
+	}
+
+	.getSocial .emailSignup .emailSignupInner .emailSignupInput .cityBox1 {
+		width: 50%;
+	}
+
+	.cityPicker .torontoRestaurantsList .restaurantListContainer {
+		overflow: scroll;
+
+	}
+
+	.cityPicker .torontoRestaurantsList .restaurantListContainer ul li a h3 {
+		font-size: 12px !important;
+	}
+	#restaurantListSlideout.torontoRestaurantsList .restaurantListContainer ul li a h3 {
+		font-size: 12px;
+	}
+
+
+}
+
+@media all and (max-width: 600px) {
+
+	footer .footerWrapper .footerRight img {
+		width: 70%;
+	}
+
+	header .englishContainer {
+		width: 100%;
+		padding-top: 45px;
+	}
+	header .frenchContainer {
+		width: 100%;
+		padding-top: 22px;
+	}
+
+	.videoContainer img {
+		margin-top: 50px;
+	}
+}
+
+@media all and (max-width: 500px) {
+		.latestNews .newsItem {
+		flex: 0 0 90%;
+	}
+	.getSocial .emailSignup .emailSignupInner {
+		width: 100%;
+		.emailSignupInput .emailOne {
+			width: 74%;
+		}
+	}
+
+	.callToAction h3.octothorpe {
+		font-size: 22px;
+	}
+
+}
+
+@media all and (max-width: 450px) {
+		.videoContainer iframe {
+		height: 200px;	}
+
+			header .englishContainer {
+		width: 100%;
+		padding-top: 90px;
+	}
+	header .frenchContainer {
+		width: 100%;
+		padding-top: 45px;
+	}
+}

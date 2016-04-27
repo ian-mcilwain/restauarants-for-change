@@ -1,0 +1,38 @@
+.latestNews{
+  padding-top: 105px;
+  h2{
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .newsItems {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+
+  .newsItem {
+  flex: 0 0 32%;
+  text-align: center;
+  padding-bottom: 40px;
+  position: relative;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  font-weight: 300;
+  img {
+    width: 100%
+  }
+
+  h2{
+    padding: 10px;
+  }
+
+  p {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: left;
+  }
+  } //newsItem ends here
+
+} //latestNews ends here

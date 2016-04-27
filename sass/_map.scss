@@ -1,0 +1,230 @@
+
+
+// All map styling here
+
+.cityPicker {
+  width: 100%;
+  text-transform: uppercase;
+  padding-top: 105px;
+  .reservationsTitle {
+    text-align: center;
+    font-size: 27px;
+    padding-bottom: 20px;
+  }
+  .citiesList {
+    width: 50%;
+    height: $mapHeight;  
+    background-color: $orange;
+    text-align: center;
+    color: white;
+    float: left;
+    h3{
+      margin: 0;
+      padding: 20px;
+      font-size: 25px;
+    }
+    p {
+      margin: 5px 0;
+      font-size: 22px;
+      font-weight: 200px;
+    }
+    .citiesLeft {
+      width: 50%;
+      float: left;
+      list-style: none;
+      padding: 0;
+    }
+    .citiesRight {
+      width: 50%;
+      float: left;
+      list-style: none;
+      padding: 0;
+    }
+  } //citiesList ends here
+
+  .restaurantsList {
+    transition: width 0.5s;
+    width: 50%;
+    height: $mapHeight;
+    background-color: $orange;
+    text-align: center;
+    color: white;
+    float: left;
+    text-transform: uppercase;
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      width: 50%;
+    }
+    h3 {
+      margin: 0;
+      font-weight: 400;
+    }
+  }
+
+  .restaurantsList ul li a{
+
+    h6 {
+      display: none;
+    }
+    h5 {
+      display: none;
+    }
+    h4 {
+      display: none;
+    }
+  }
+
+  .restaurantListContainer {
+    height: 350px;
+    display: flex;
+    // flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    overflow-y: auto;
+    max-width: 100%;
+    h3 {
+      margin: 5px;
+      font-size: 28 px;
+    }
+  }
+
+  .torontoRestaurantsList .restaurantListContainer ul li a h3 {
+    font-size: 12px;
+  } 
+
+  .exploreAnotherCity {
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .exploreAnotherCity:hover {
+    color: $turqoise;
+  }
+
+  .singleRestaurantData {
+    width: 0;
+    transition: width 0.5s;
+    float: left;
+    background-color: $turqoise;
+    color: white;
+    text-align: center;
+    height: $mapHeight;
+    h5{
+      display: none;
+    }
+  }
+
+  .singleRestaurantDataInner{
+    h4 {
+      display: none;
+    }
+    .phoneNumber {
+      display: none;
+    }
+  }
+
+  .singleRestaurantDataVisible {
+    width: 20%;
+    height: $mapHeight;
+    h6 {
+      font-size: 1em;
+    }
+    a:hover {
+      color: $orange;
+    }
+  }
+  .slideBack img {
+    margin-top: 50px;
+    // width: 25%;
+  }
+  #mapSlideout {
+    width: 40%;
+  }
+
+  #restaurantsListSlideout {
+    width: 40%;
+    .restaurantListContainer {
+      height: 350px;
+    }
+  }
+
+  .calgaryRestaurantsList {
+    display: none;
+  }
+
+  .edmontonRestaurantsList {
+    display: none;
+  }
+
+  .halifaxRestaurantsList {
+    display: none;
+  }
+
+  .hamiltonRestaurantsList {
+    display: none;
+  }
+
+  .montrealRestaurantsList {
+    display: none;
+  }
+
+  .ottawaRestaurantsList {
+    display: none;
+  }
+
+  .stJohnsRestaurantsList {
+    display: none;
+  }
+
+  .saskatoonRestaurantsList {
+    display: none;
+  }
+
+  .stratfordRestaurantsList {
+    display: none;
+  }
+
+  .torontoRestaurantsList {
+    display: none;
+  }
+
+  .vancouverRestaurantsList {
+    display: none;
+  }
+
+  .winnipegRestaurantsList {
+    display: none;
+  }
+
+  .kingstonRestaurantsList {
+    display: none;
+  }
+
+  .reservationsMap {
+    width: 50%;
+    float: left;
+    transition: all 0.5s;
+   #map {
+    width: 100%;
+    height: $mapHeight;
+   }
+  }
+} //city picker ends here
+
+
+.restaurantNameInfo {  
+  display: none;
+} //This is where information about individual restauarants is stored from the backend to be accessed by the JS
+
+.mapInfo {
+  display: none;
+}
+// Map styling ends here
+
+// mapbox styling
+
+.leaflet-control {
+  display: none;
+}

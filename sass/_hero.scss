@@ -1,0 +1,56 @@
+
+header {
+  background-image: url(img/rfcSiteBackgroundGray.jpg);
+  height: 400px;
+  background-size: cover;
+  background-position: 25% 75%;
+  .englishContainer {
+    width: 50%;
+    max-width: 700px;
+    img {
+      max-width: 650px;
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+  .frenchContainer {
+    width: 47%;
+    max-width: 700px;
+  img {
+      max-width: 600px;
+    }
+  } //container ends here
+} //header ends here
+
+h1 {
+  display: none;
+}
+
+.callToAction {
+  text-align: center;
+  font-family: "daft brush";
+  color: $orange;
+  width: 90%;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  h3 {
+    font-size: 28px;
+    margin-top: 0;
+    line-height: 42px;
+
+  }
+  .date {
+    color: $turqoise;
+  }
+  .octothorpe {
+    color: $turqoise;
+  }
+  img {
+    width: 60px;
+  }
+} // callToAction ends here
+

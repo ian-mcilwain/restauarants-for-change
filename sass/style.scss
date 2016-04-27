@@ -1,0 +1,27 @@
+@import "normalize";
+@import "globals";
+@import "nav";
+@import "hero";
+@import "map";
+@import "about";
+@import "whoBenefits";
+@import "getSocial";
+@import "sponsors";
+@import "latestNews";
+@import "footer";
+@import "singlePage";
+@import "recipePage";
+@import "themeDefaults";
+@import "mediaQueries";
+
+.videoContainer {
+	width: 100%;
+	.vimeography-thumbnails {
+		display: none;
+	}
+	img {
+		width: 80px;
+		margin-left: 47.5%;
+	}
+}
+

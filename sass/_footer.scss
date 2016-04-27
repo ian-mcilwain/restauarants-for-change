@@ -1,0 +1,75 @@
+footer {
+  margin-top: 100px;
+  width: 100%;
+  background-image:
+  linear-gradient(
+    to right,
+    $turqoise 50%,
+    $orange 50%
+    );
+  overflow: hidden;
+  color: white;
+  .footerWrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    .footerLeft {
+      background-color: $turqoise;
+      width: 25%;
+      float: left;
+      height: 300px;
+      padding-top: 30px;
+      p {
+        margin: 0;
+      }
+      a {
+        span {
+          color: $orange;
+        }
+      }
+      a:hover {
+        color: $orange;
+        transition: all 0.5s;
+        span {
+          color: black;
+          transition: all 0.5s;
+        }
+      }
+    } // footerLeft ends here
+    .footerRight {
+      background-color: $orange;
+      width: 75%;
+      float: left;
+      height: 300px;
+      text-align: center;
+      padding-top: 40px;
+      h2 {
+        margin-bottom: 0;
+        display: inline-block;
+        border: 1px solid white;
+        padding: 5px;
+        border-radius: 3px;
+        margin: 10px;
+        min-width: 51%;
+        line-height: 20px;
+      }
+      h2:hover {
+        box-shadow: 0px 0px 10px 0px rgba(255,255,255,0.75);
+        transition: all 0.5s;
+      }
+
+      img {
+        width: 50%;
+        padding-top: 20px;
+        display: block;
+        margin: 0 auto;
+        // margin-left: 50%;
+      }
+
+      img::before {
+        content: "ABOUT";
+      }
+    } // footerRight ends here
+  } //.footerWrapper ends here
+} //footer ends here
+
+

@@ -1,0 +1,51 @@
+.recipeMain {
+  margin-top: 90px;
+  columns: 200px 3;
+  column-gap: 60px;
+  padding-left: 20px;
+  padding-right: 20px;
+  h2 {
+    column-span: all;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+  .recipeBy {
+    margin: 0;
+    font-weight: bold;
+    column-span: all;
+  }
+  .recipeDate {
+    margin: 0; 
+    font-weight: bold;
+  }
+
+}
+
+.navSingle nav .navWrapper .navLogo {
+  display: block;
+}
+
+.navSingle nav ul {
+  margin-left: 5%;
+}
+
+.backBox {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.recipeBack {
+  width: 20%;
+  p {
+    display: inline-block;
+    color: $turqoise;
+    font-size: 24px;
+  }
+  img {
+    width: 130px;
+    transform: rotate(270deg);
+    margin-bottom: -40px;
+    margin-right: -35px;
+    display: inline-block;
+  }
+}

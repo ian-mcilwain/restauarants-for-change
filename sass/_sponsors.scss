@@ -1,0 +1,126 @@
+
+.sponsors {
+  padding-top: 105px;
+  color: black;
+  width: 100%;
+  text-align: center;
+  h2 {
+    text-transform: uppercase;
+  }
+  .sponsorLogos {
+    text-align: center;
+    text-transform: uppercase;
+    .presentingSponsors {
+      width: 100%;
+        a img {
+        max-width: 140px !important;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+      }
+    }
+    .nationalSponsors {
+      width: 100%;
+      float: left;
+      a img {
+        max-width: 140px !important;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+      }
+    }
+    .mediaSponsors {
+      width: 100%;
+      float: left;
+    }
+    .nationalMediaSponsors {
+      width: 50%;
+      float: left;
+      a img {
+        max-width: 140px !important;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+      }
+    }
+    .regionalMediaSponsors {
+      width: 50%;
+      float: left;
+      a img {
+        max-width: 140px !important;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+      }
+    }
+    .eventSponsors {
+      width: 25%;
+      float: left;
+      a img {
+        max-width: 140px !important;
+        height: auto;
+        // margin-right: 30px;
+        // margin-left: 30px;
+      }
+    }
+    .communitySponsors {
+      width: 26%;
+      float: left;
+      a img {
+        max-width: 140px !important;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+      }
+    }
+    .otherSponsors {
+      width: 49%;
+      float: left;
+      a img {
+        max-width: 140px !important;
+        height: auto;
+        margin-right: 30px;
+        margin-left: 30px;
+      }
+    }
+    .restaurantSponsors {
+      width: 100%;
+      float: left;
+      padding-right: 30px;
+      padding-left: 30px;
+      .restaurantCity {
+        color: $turqoise;
+      }
+
+      .restaurantCity::after {
+        content: " • "
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        li{
+          display: inline;
+            font-size: 24px;
+            color: black;
+          }
+          a {
+            color: $orange;
+          }
+          a:hover {
+            transition: all 0.5s;
+            color: black;
+          }
+          a::after {
+            content: " / "
+          } 
+  
+      }
+    }
+    h4 {
+      display: none;
+    }
+    h3 {
+      // padding-top: 40px;
+    }
+  } //sponsor logos ends 
+} //sponsors ends here

@@ -1,0 +1,43 @@
+.whoBenefits{
+  text-align: center;
+  padding-top: 105px;
+  .benefitsText{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    h2 {
+      text-transform: uppercase;
+    }
+    a {
+      color: $turqoise;
+    }
+    a:hover {
+      color: $orange;
+      transition: all 0.5s;
+    }
+  }
+  p{
+    text-align: left;
+    font-size: 18px;
+  }
+.aboutLogos {
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;      
+ width: 90%;
+ margin: 0 auto;
+ .aboutLogoContainers {
+   width: 15%;
+   margin-left: 2.5%;
+   margin-right: 2.5%;
+   img {
+    height: auto;
+    }
+  p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+  }
+  } //aboutLogoContainers ends here
+  } //aboutLogos ends here 
+} //whoBenefits ends here

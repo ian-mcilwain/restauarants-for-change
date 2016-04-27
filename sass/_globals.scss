@@ -1,0 +1,25 @@
+/* Global Classes / Wordpress Specific */
+.aligncenter    { text-align: center; margin: 0 auto; }
+.alignleft      { float: left; }
+.alignright     { float: right; }
+img.alignleft     { padding-right: 5px;}
+img.alignright    { padding-left: 5px; }
+.clear        { width:100%; float:left; clear:both;}
+
+body {
+  font-family: "brandon-grotesque",sans-serif;
+  background-image: url(img/rfc-background.png);
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+  // width: 100%;
+  margin: 0;
+
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
